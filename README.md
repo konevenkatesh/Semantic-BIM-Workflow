@@ -11,6 +11,7 @@ This paper presents a novel, bi-directional methodology that leverages Semantic 
 In the primary workflow direction, data from a unified knowledge graph is retrieved via **SPARQL** queries and used to programmatically generate a new, enriched IFC model. This process moves beyond custom properties and instead creates native, standards-compliant IFC entities for tasks (**IfcTask**), resources (**IfcResource**), costs (**IfcCostItem**), and their standard relationships (**IfcRelAssignsToProduct**, etc.). The feasibility and effectiveness of this approach are validated through a case study, demonstrating the successful generation of a verifiable, integrated BIM artifact.
 
 The findings show that this ontology-driven framework significantly enhances data integration, creating truly interoperable models where process data is a first-class citizen and advancing the potential for more intelligent, data-centric BIM practices.
+![ Architecture Diagram](./images/sample-architecture.png)
 
 ---
 
@@ -23,7 +24,6 @@ The project's methodology is centered on a **two-ontology approach** to create a
 
 ### Process Diagrams
 
-**(Note: Please convert your `FIG3.tiff` and `FIG9.tiff` files to `.png` or `.jpg`, upload them to an `images` folder in this repository, and update the filenames below.)**
 
 **System Architecture (Fig 3):** This diagram illustrates the overall system architecture, including the data sources, the unified knowledge graph, and the integration components.
 ![System Architecture Diagram](./images/system-architecture.png)
